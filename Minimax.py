@@ -79,8 +79,6 @@ def play_game():
     human = 'o'
 
     print("Tic Tac Toe! You are 'o', AI is 'x'")
-    print("Positions are from 0 to 8 like this:")
-    print("0 1 2\n3 4 5\n6 7 8")
     
     print_grid(grid)
 
@@ -103,11 +101,10 @@ def play_game():
             print("Winner:", winner)
             break
 
-        # AI move
-        print("AI is thinking...")
+        
         move = ai_move(grid, ai, human)
         grid[move] = ai
-        print(f"AI moved to {move}")
+        
         print_grid(grid)
 
         winner = check_winner(grid, ai, human)
