@@ -1,6 +1,6 @@
 
 """
-code written by R.Dinesh
+Author => R.Dinesh
 founder and CEO of auravia
 
 """
